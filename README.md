@@ -13,6 +13,7 @@ Tested on Ubunut 16.04 <br />
 
 # Installation
 git clone git@github.com:HAASLEWER/twitter_search.git<br />
+cd twitter_search<br />
 npm install<br />
 npm start<br />
 Go to http://localhost:8083 to view the app<br />
