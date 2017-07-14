@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+      <!-- Custom style sheets -->
+      <link rel="stylesheet" href="css/pace.min.css">
+      <link rel="stylesheet" href="css/app.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <nav>
+        <div class="nav-wrapper blue-grey darken-4">
+          <form id="search_form">
+            <div class="row">
+              <div class="col s9">
+                <div class="input-field">
+                  <input id="search" type="search" autocomplete="off" required>
+                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+                </div> 
+              </div> 
+              <div class="col s3 hide-on-small-only">
+                <ul class="right">
+                  <li><a href="/" class="">Home</a></li>
+                  <li><a href="#" class="read-later">Read Later</a></li>
+                </ul>
+              </div>                 
+            </div>            
+          </form>
+        </div>
+      </nav> 
+      
+      <main> 
+        <div class="dynamic_content">
+          <div class="row">
+            <div class="col s12">
+              <h1 class="center-align flow-text">Welcome to Twitter #hashtag search!</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <h4 class="center-align flow-text">Use the search box on top to insert your hashtag, then press enter.</h4>
+            </div>
+          </div> 
+        </div>                
+
+      </main>
+    
+      <footer class="page-footer blue-grey darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Twitter Search</h5>
+              <p class="grey-text text-lighten-4">Find all the tweets!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
+                <li><a class="grey-text text-lighten-3 read-later" href="#">Read Later</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2017 Copyright Text
+          </div>
+        </div>
+      </footer>    
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="/js/pace.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+      <script type="text/javascript" src="/js/app.js"></script>
+    </body>
+  </html>

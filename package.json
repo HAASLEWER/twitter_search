@@ -1,0 +1,22 @@
+{
+  "name": "twitter-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Lehan Coetzee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonschema": "^1.1.1",
+    "morgan": "^1.8.2",
+    "node-json-db": "^0.7.3",
+    "sanitize": "^2.0.1",
+    "twit": "^2.2.9"
+  }
+}
